@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Github1s Extension",
+    "version": "1.0.0",
+    
+    "description": "Open github repository in VSCode with Github1s",
+    "icons": {
+        "16": "github1s.ico",
+        "48": "github1s.ico",
+        "128": "github1s.ico"
+    },
+
+    "author": "Darkempire78",
+
+    "content_scripts": [
+        {
+            "matches": ["https://github.com/*/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
