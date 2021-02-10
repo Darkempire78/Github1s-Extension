@@ -16,8 +16,8 @@ The Github1s Extension allows you to open github repository in VSCode with [Gith
 
 Add a button to open the current repository on github1s
 
-<img src="https://github.com/Darkempire78/Music-Discord-Bot/blob/main/capture1.png" width="600"/>
-<img src="https://github.com/Darkempire78/Music-Discord-Bot/blob/main/capture1.png" width="600"/>
+<img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/capture1.png" width="600"/>
+<img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/capture2.png" width="600"/>
 
 
 ## Contributing
