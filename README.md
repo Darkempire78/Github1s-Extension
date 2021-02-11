@@ -26,6 +26,10 @@ Add a button to open the current repository on github1s
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture1.PNG" width="800"/>
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture2.PNG" width="800"/>
 
+Options
+
+<img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture3.PNG" width="800"/>
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
