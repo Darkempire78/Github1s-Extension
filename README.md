@@ -2,15 +2,22 @@
 
 # Github1s Extension
 
-A chrome extension that allows you to open github repositories in VSCode with [Github1s](https://github.com/conwnet/github1s)
+A chrome/firefox extension that allows you to open github repositories in VSCode with [Github1s](https://github.com/conwnet/github1s)
 
 ## Installation
 
+**CHROME :**
 * Download the repository
 * Go to `chrome://extensions/`
 * Enable the `Developer Mode`
 * Click on `Load unpacked`
 * Select the repository folder
+
+**FIREFOX :**
+* Download the repository
+* Go to `about:debugging#/runtime/this-firefox`
+* Click on `Loading a temporary add-on`
+* Select the repository `content.js` file
 
 ## Features
 
