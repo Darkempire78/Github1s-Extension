@@ -21,12 +21,15 @@ A chrome/firefox extension that allows you to open github repositories in VSCode
 
 ## Features
 
-Add a button to open the current repository on github1s
+**Add a button to open the current repository on github1s**
 
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture1.PNG" width="800"/>
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture2.PNG" width="800"/>
 
-Options
+**Options**
+* Go to `chrome://extensions/`
+* Click on `Github1s Extension details`
+* Click on `Extension options`
 
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture3.PNG"/>
 
