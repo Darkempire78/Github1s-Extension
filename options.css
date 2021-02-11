@@ -1,0 +1,16 @@
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    text-align-last: center;
+}
+
+div#openInNewPageCategorie {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div#buttonBackgroundColorCategorie{
+    margin-top: 20px;
+}

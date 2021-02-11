@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Test Extension Options</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <link rel="stylesheet" href="options.css">
+    </head>
+
+    <body>
+        <div class="content">
+            
+            <img src="github1s.ico" width="200px">
+            
+            <h1 class="title is-3">GITHUB1S EXTENSION OPTIONS</h1>
+
+            <div>
+                <h1 class="title is-6">Button background color :</h1>
+                <input id="backgroundColor" class="input" type="text" placeholder="#Color">
+            </div>
+
+            <div id="buttonBackgroundColorCategorie">
+                <h1 class="title is-6">Button text color :</h1>
+                <input id="textColor" class="input" type="text" placeholder="#Color">
+            </div>
+
+            <div id="openInNewPageCategorie" >
+                <input type="checkbox" id="openInNewPage">
+                Open the Github1s view in a new page
+            </div>
+
+            <div>
+                <button id="save" class="button is-success">Save options</button>
+                <div id="status"></div>
+            </div>
+
+            <script src="options.js"></script>
+        </div>
+    </body>
+</html>

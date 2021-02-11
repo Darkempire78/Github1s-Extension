@@ -12,10 +12,16 @@
 
     "author": "Darkempire78",
 
+    "permissions": [
+        "storage"
+    ],
+
     "content_scripts": [
         {
             "matches": ["https://github.com/*/*"],
             "js": ["content.js"]
         }
-    ]
+    ],
+    
+    "options_page": "options.html"
 }
