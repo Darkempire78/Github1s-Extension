@@ -2,7 +2,7 @@
 
 # Github1s Extension
 
-The Github1s Extension allows you to open github repository in VSCode with [Github1s](https://github.com/conwnet/github1s)
+A chrome extension that allows you to open github repositories in VSCode with [Github1s](https://github.com/conwnet/github1s)
 
 ## Installation
 
