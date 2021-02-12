@@ -5,6 +5,7 @@ function save_options() {
     var backgroundColor = document.getElementById('backgroundColor').value;
     var textColor = document.getElementById('textColor').value;
     var openInNewPage = document.getElementById('openInNewPage').checked;
+
     chrome.storage.sync.set({
         textColor: textColor,
         backgroundColor: backgroundColor,
