@@ -36,7 +36,7 @@ A chrome/firefox extension that allows you to open github repositories in VSCode
 **FIREFOX :**
 * Got to `about:addons`
 * Click on `Extensions`
-* Selct the extension
+* Select the extension
 * Click on `Options`
 
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/Capture3.PNG"/>
