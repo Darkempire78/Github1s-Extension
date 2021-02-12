@@ -5,9 +5,9 @@
     
     "description": "Open github repository in VSCode with Github1s",
     "icons": {
-        "16": "github1s.ico",
-        "48": "github1s.ico",
-        "128": "github1s.ico"
+        "16": "assets/github1s.ico",
+        "48": "assets/github1s.ico",
+        "128": "assets/github1s.ico"
     },
 
     "author": "Darkempire78",
