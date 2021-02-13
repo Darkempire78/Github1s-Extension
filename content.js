@@ -3,16 +3,11 @@ buttonNav = document.getElementsByClassName("file-navigation mb-3 d-flex flex-it
 if (buttonNav[0] != null) {
     // Options
     chrome.storage.sync.get(["backgroundColor", "textColor", "openInNewPage"], function (obj) {  
-        
-        try {
-            var backgroundColor = obj.backgroundColor;
-            var textColor = obj.textColor;
-            var openInNewPage = obj.openInNewPage;
-        } catch (error) {
-            var backgroundColor = '#fafbfc';
-            var textColor = "#24292e";
-            var openInNewPage = false;
-        }
+
+        // If obj and obj.x defined => obj.x, else => "xxx"
+        let backgroundColor = obj && obj.backgroundColor ? obj.backgroundColor : "#fafbfc";
+        let textColor = obj && obj.textColor ? obj.textColor : "#24292e";
+        let openInNewPage = obj && obj.openInNewPage ? obj.openInNewPage : false;
         
         // Create the Github1s button
         var btn = document.createElement("a");
