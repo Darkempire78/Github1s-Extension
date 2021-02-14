@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Github1s Extension",
-    "version": "1.0.4",
+    "version": "1.0.5",
     
     "description": "Open github repository in VSCode with Github1s",
     "icons": {

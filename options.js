@@ -4,11 +4,13 @@
 function save_options() {
     var backgroundColor = document.getElementById('backgroundColor').value;
     var textColor = document.getElementById('textColor').value;
+    var buttonTitle = document.getElementById('buttonTitle').value;
     var openInNewPage = document.getElementById('openInNewPage').checked;
 
     chrome.storage.sync.set({
         textColor: textColor,
         backgroundColor: backgroundColor,
+        buttonTitle: buttonTitle,
         openInNewPage: openInNewPage
     }, function() {
         // Update status to let user know options were saved.
@@ -26,11 +28,13 @@ function restore_options() {
     // Use default value
     chrome.storage.sync.get({
         backgroundColor: '#fafbfc',
-        textColor: "#24292e",
+        textColor: '#24292e',
+        buttonTitle: 'View on Github1s',
         openInNewPage: false
     }, function(items) {
         document.getElementById('backgroundColor').value = items.backgroundColor;
         document.getElementById('textColor').value = items.textColor;
+        document.getElementById('buttonTitle').value = items.buttonTitle;
         document.getElementById('openInNewPage').checked = items.openInNewPage;
     });
 }
