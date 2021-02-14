@@ -41,7 +41,7 @@ Or with the developer mode
 * Select the extension
 * Click on `Options`
 
-<img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/assets/Capture3.PNG"/>
+<img src="assets/Capture3.PNG"/>
 
 ## Contributing
 
@@ -52,4 +52,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-This project is under [GPLv3](https://github.com/Darkempire78/Github1s-Extension/blob/master/LICENSE).
+This project is under [GPLv3](LICENSE).
