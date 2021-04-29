@@ -25,6 +25,12 @@ Or with the developer mode
 
 **Add a button to open the current repository on github1s**
 
+* Button background color customization
+* Button text color customization
+* Button title customization
+* Open the Github1s view in a new page
+* Adapt color to your github theme (light or dark mode)
+
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/assets/Capture1.PNG" width="800"/>
 <img src="https://github.com/Darkempire78/Github1s-Extension/blob/main/assets/Capture2.PNG" width="800"/>
 
