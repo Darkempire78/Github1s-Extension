@@ -15,7 +15,8 @@
 
     "permissions": [
         "storage"
-    ],
+    ], 
+
 
     "content_scripts": [
         {
