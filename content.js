@@ -9,7 +9,7 @@ if (buttonNav[0] != null) {
         let textColor = obj && obj.textColor ? obj.textColor : "#24292e";
         let buttonTitle = obj && obj.buttonTitle ? obj.buttonTitle : "View on Github1s";
         let openInNewPage = obj && obj.openInNewPage ? obj.openInNewPage : false;
-        let adaptToTheme = obj = obj.adaptToTheme ? obj.adaptToTheme : true;
+        let adaptToTheme = obj && typeof obj.adaptToTheme === 'boolean' ? obj.adaptToTheme : true;
         
         // Create the Github1s button
         var btn = document.createElement("a");
