@@ -6,12 +6,15 @@ function save_options() {
     var textColor = document.getElementById('textColor').value;
     var buttonTitle = document.getElementById('buttonTitle').value;
     var openInNewPage = document.getElementById('openInNewPage').checked;
+    var adaptToTheme = document.getElementById('adaptToTheme').checked;
+
 
     chrome.storage.sync.set({
         textColor: textColor,
         backgroundColor: backgroundColor,
         buttonTitle: buttonTitle,
-        openInNewPage: openInNewPage
+        openInNewPage: openInNewPage,
+        adaptToTheme: adaptToTheme,
     }, function() {
         // Update status to let user know options were saved.
         var status = document.getElementById('status');
@@ -30,12 +33,14 @@ function restore_options() {
         backgroundColor: '#fafbfc',
         textColor: '#24292e',
         buttonTitle: 'View on Github1s',
-        openInNewPage: false
+        openInNewPage: false,
+        adaptToTheme: true
     }, function(items) {
         document.getElementById('backgroundColor').value = items.backgroundColor;
         document.getElementById('textColor').value = items.textColor;
         document.getElementById('buttonTitle').value = items.buttonTitle;
         document.getElementById('openInNewPage').checked = items.openInNewPage;
+        document.getElementById('adaptToTheme').checked = items.adaptToTheme;
     });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
